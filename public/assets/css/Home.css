@@ -1,0 +1,885 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* .......header part start......... */
+
+header {
+	display: block;
+}
+header .header-inner {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+header .header-inner .header-left {
+    display: block;
+    width: 15%; 
+}
+header .header-inner .header-left .inner-left {
+    display: block;
+    padding: 25px 14px;
+    box-sizing: border-box;
+}
+
+       /* ......header center started......... */
+
+header .header-inner .header-center {
+    display: block;
+    width: 65%;
+    color: aliceblue;
+}
+header .header-inner .header-center .inner-center {
+    display: block;
+    padding: 30px 45px;
+}
+header .header-inner .header-center .inner-center ul {
+    display: flex;
+}
+header .header-inner .header-center .inner-center ul .menu-option {
+    list-style: none;
+    display: block;
+    margin: 10px 20px;
+}
+header .header-inner .header-center .inner-center ul .menu-option {
+    display: block;
+    position: relative;
+}
+
+header .header-inner .header-center .inner-center ul .menu-option:hover .sub-menu {
+    display: block;
+}
+header .header-inner .header-center .inner-center ul .menu-option .sub-menu {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	min-width: 200px;
+	background: #f6e3ee;
+	border-radius: 2px;
+	z-index: 1;
+}
+header .header-inner .header-center .inner-center ul .menu-option .sub-menu li {
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+	font-size: 18px;
+}
+
+header .header-inner .header-center .inner-center ul .menu-option a {
+	color: #303030;
+	font-size: 15px;
+}
+header .header-inner .header-center .inner-center ul .menu-option a:hover {
+    color: #e62263;
+    transition: 1s;
+}
+ 
+        /* ..........hedaer right started.......... */
+
+header .header-inner .header-right {
+    display: block;
+    width: 20%;
+}
+header .header-inner .header-right .inner-right {
+    display: flex;
+    padding: 15px;
+}
+header .header-inner .header-right .inner-right .profile {
+    display: block;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+header .header-inner .header-right .inner-right .profile .fa-solid.fa-user {
+	padding: 15px 23px 0 23px;
+	box-sizing: border-box;
+}
+header .header-inner .header-right .inner-right span {
+    color: #303030;
+    font-size: 14px;
+    line-height: 22px;
+}
+header .header-inner .header-right .inner-right .search {
+    display: block;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+header .header-inner .header-right .inner-right .search .fa-solid.fa-magnifying-glass {
+    padding: 15px 17px 0 17px;
+	box-sizing: border-box;
+}
+header .header-inner .header-right .inner-right .cart {
+    display: block;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+header .header-inner .header-right .inner-right .cart .fa-solid.fa-bag-shopping {
+    padding: 15px 5px 0 9px;
+	box-sizing: border-box;
+}
+
+   /* .......body part started.......... */
+
+   section {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+section .inner-section {
+    display: block;
+}
+
+/* ..............bannner-css-start................... */
+section .inner-section .banner-block {
+    display: block;
+    position: relative;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .banner-block img {
+	width: 100%;
+	height: auto;
+}
+section .inner-section .banner-block .banner-text {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: left;
+    transform: translate(0, -50%);
+    box-sizing: border-box;
+}
+section .inner-section .banner-block .banner-text .banner-text-first {
+    float: left;
+    padding-left: 50px;
+}
+section .inner-section .banner-block .banner-text .banner-text-first a {
+    margin: 0;
+    display: block;
+}
+section .inner-section .banner-block .banner-text .banner-text-first a .text1 {
+	font-size: 26px;
+	color: #e62263;
+    font-weight: 500;
+}
+section .inner-section .banner-block .banner-text .banner-text-first a .text2 {
+	font-size: 50px;
+	color: #2b2b2b;
+	font-weight: 600;
+}
+section .inner-section .banner-block .banner-text .banner-text-first .text3 {
+	font-size: 30px;
+	color: #2b2b2b;
+	font-weight: 600;
+    margin-bottom: 20px;
+}
+section .inner-section .banner-block .banner-text .banner-text-first .text3 span {
+    color: #e62263;
+}
+section .inner-section .banner-block .banner-text .banner-text-first .banner-click {
+	color: #fff;
+	background: #e62263;
+	padding: 14px 20px;
+	border-radius: 3px;
+	font-size: 17px;
+	font-weight: 500;
+	max-width: 130px;
+	text-align: center;
+}
+section .inner-section .banner-block .banner-text .banner-text-first .banner-click:hover {
+    background: #e62263;
+}
+/* ..............shop-flower-block.................................. */
+section .inner-section .shop-flower-block {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .shop-flower-block .inner-shop {
+    display: block;
+}
+section .inner-section .shop-flower-block .inner-shop .heading {
+    display: block;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+section .inner-section .shop-flower-block .inner-shop .heading span {
+	display: block;
+	font-size: 40px;
+	line-height: 1.4;
+	font-weight: 600;
+	text-align: center;
+    position: relative;
+}
+section .inner-section .shop-flower-block .inner-shop .heading span::after {
+    content: "";
+    width: 130px;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-bottom: 3px solid #e62263;
+    padding-bottom: 6px;
+}
+section .inner-section .shop-flower-block .inner-shop .flower-items {
+    display: flex;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+section .inner-section .shop-flower-block .inner-shop .flower-items .flower-img {
+	display: block;
+	margin: 0 10px;
+}
+section .inner-section .shop-flower-block .inner-shop .flower-items .flower-img img {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section .inner-section .shop-flower-block .inner-shop .flower-items .flower-img a {
+	color: #2b2b2b;
+	font-size: 17px;
+	font-weight: 600;
+    line-height: 2;
+}
+section .inner-section .shop-flower-block .inner-shop .flower-items .flower-img a:hover {
+    color: #e62263;
+    transition: 1s;
+}
+section .inner-section .shop-flower-block .inner-shop .flower-items .flower-img .sub-title {
+	display: block;
+	text-align: center;
+}
+
+/* ...................discount-block...................... */
+section .inner-section .discount-block {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .discount-block .inner-discount {
+    display: flex;
+    position: relative;
+}
+section .inner-section .discount-block .inner-discount .discount-img {
+	display: block;
+	margin: 5px auto;
+    position: relative;
+}
+section .inner-section .discount-block .inner-discount .discount-text {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    text-align: center;
+}
+section .inner-section .discount-block .inner-discount .discount-text .text-d1 {
+	color: #e62263;
+	font-size: 30px;
+	font-weight: 700;
+    line-height: 1.4;
+}
+section .inner-section .discount-block .inner-discount .discount-text .text-d2 {
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+/* ...........................feature-item-block............................. */
+section .inner-section .featured-item-block {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .featured-item-block .inner-featured {
+    display: block;
+}
+section .inner-section .featured-item-block .inner-featured .heading {
+    display: block;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+section .inner-section .featured-item-block .inner-featured .heading span {
+    display: block;
+	font-size: 40px;
+	line-height: 1.4;
+	font-weight: 600;
+	text-align: center;
+    position: relative;
+}
+section .inner-section .featured-item-block .inner-featured .heading span::after {
+    content: "";
+    width: 130px;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-bottom: 3px solid #e62263;
+    padding-bottom: 6px;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items {
+    display: flex;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img {
+    display: block;
+    overflow: hidden;
+    margin-left: 20px; 
+    position: relative;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img a {
+    display: block;
+    position: relative;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img .sub-head {
+	display: block;
+	position: absolute;
+	top: 2%;
+	left: 3%;
+	font-size: 13px;
+	color: #fff;
+	background: #e62263;
+	padding: 2px 8px 2px;
+	border-radius: 2px;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img .sub-head2 {
+    display: block;
+	position: absolute;
+	top: 2%;
+	right: 3%;
+	font-size: 13px;
+	color: #fff;
+	background: #8b8f98;
+	padding: 2px 8px 2px;
+	border-radius: 2px;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img .feuatured-description {
+	display: block;
+	padding: 0px 5px;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img .feuatured-description a {
+	color: #555;
+	font-weight: 500;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img .feuatured-description a:hover{
+    color: #e62263;
+    transition: 1s;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img .feuatured-description .price {
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	text-align: left;
+    margin: 7px 0;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img .feuatured-description .action-primary {
+	font-size: 14px;
+	color: #fff !important;
+	background: #e62263;
+	padding: 8px 14px;
+	border-radius: 3px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 0;
+}
+section .inner-section .featured-item-block .inner-featured .featured-items .featured-img .feuatured-description .action-primary:hover {
+    background: #2b2b2b;
+    transition: 1s;
+}
+
+/* .........................surprice-block................................ */
+section .inner-section .surprise-block {
+    display: block;
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .surprise-block .inner-surprise {
+    display: block;
+    position: relative;
+}
+section .inner-section .surprise-block .inner-surprise .block-text {
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+section .inner-section .surprise-block .inner-surprise .block-text .text-s1 {
+	font-size: 36px;
+	color: #e62263;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 1.1;
+}
+section .inner-section .surprise-block .inner-surprise .block-text  .text-s2 {
+	display: block;
+	font-size: 18px;
+	color: #2b2b2b;
+	margin-bottom: 20px;
+	line-height: 1.1;
+}
+section .inner-section .surprise-block .inner-surprise .block-text .action-click {
+	max-width: 160px;
+	display: block;
+	color: #fff;
+	background: #e62263;
+	text-align: center;
+	padding: 12px 0;
+	border-radius: 3px;
+}
+section .inner-section .surprise-block .inner-surprise .block-text .action-click:hover {
+    background-color: #2b2b2b;
+    transition: all ease-in 1s;
+}
+
+/* ........................best-flower-block......................... */
+section .inner-section .best-flower-block {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .best-flower-block .inner-best-flower {
+    display: block;
+}
+section .inner-section .best-flower-block .inner-best-flower .heading {
+    display: block;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+section .inner-section .best-flower-block .inner-best-flower .heading span {
+    display: block;
+	font-size: 40px;
+	line-height: 1.4;
+	font-weight: 600;
+	text-align: center;
+    position: relative;
+}
+section .inner-section .best-flower-block .inner-best-flower .heading span::after {
+    content: "";
+    width: 130px;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-bottom: 3px solid #e62263;
+    padding-bottom: 6px;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img {
+    display: block;
+    width: 23%;
+    overflow: hidden;
+    margin: 0 11px 20px 11px;
+    position: relative;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img a {
+    display: block;
+    position: relative;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img img {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img .sub-text {
+	display: block;
+	position: absolute;
+	top: 2%;
+	left: 3%;
+	font-size: 13px;
+	color: #fff;
+	background: #e62263;
+	padding: 2px 8px 2px;
+	border-radius: 2px;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img .sub-text2 {
+    display: block;
+	position: absolute;
+	top: 2%;
+	right: 3%;
+	font-size: 13px;
+	color: #fff;
+	background: #8b8f98;
+	padding: 2px 8px 2px;
+	border-radius: 2px;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img .best-description {
+	display: block;
+	padding: 0px 5px;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img .best-description a {
+	color: #555;
+	font-weight: 500;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img .best-description a:hover{
+    color: #e62263;
+    transition: 1s;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img .best-description .price {
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	text-align: left;
+    margin: 7px 0;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img .best-description .action-primary {
+	font-size: 14px;
+	color: #fff !important;
+	background: #e62263;
+	padding: 8px 14px;
+	border-radius: 3px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 0;
+}
+section .inner-section .best-flower-block .inner-best-flower .best-flower-items .best-flower-img .best-description .action-primary:hover {
+    background: #2b2b2b;
+    transition: 1s;
+}
+
+/* .....................Testimonial-block.......................... */
+section .inner-section .testimonial-block {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .testimonial-block .inner-testimonial {
+    display: block;
+}
+section .inner-section .testimonial-block .inner-testimonial .heading {
+    display: block;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+section .inner-section .testimonial-block .inner-testimonial .heading span {
+    display: block;
+	font-size: 40px;
+	line-height: 1.4;
+	font-weight: 600;
+	text-align: center;
+    position: relative;
+}
+section .inner-section .testimonial-block .inner-testimonial .heading span::after {
+    content: "";
+    width: 130px;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-bottom: 3px solid #e62263;
+    padding-bottom: 6px;
+}
+section .inner-section .testimonial-block .inner-testimonial .testimonial-owl-outer {
+    display: block;
+    max-width: 825px;
+    margin: 0 auto;
+}
+section .inner-section .testimonial-block .inner-testimonial .testimonial-owl-outer .testimonial-owl-inner {
+    display: block;
+    text-align: center;
+}
+section .inner-section .testimonial-block .inner-testimonial .testimonial-owl-outer .testimonial-owl-inner .testimonial-img {
+    display: block;
+    margin-bottom: 25px;
+}
+section .inner-section .testimonial-block .inner-testimonial .testimonial-owl-outer .testimonial-owl-inner .testimonial-img img {
+    border-radius: 50%;
+}
+section .inner-section .testimonial-block .inner-testimonial .testimonial-owl-outer .testimonial-owl-inner .testimonial-desc {
+	color: #2b2b2b;
+	margin: 0 auto 15px;
+	line-height: 1.5;
+	width: 100%;
+	display: block;
+}
+section .inner-section .testimonial-block .inner-testimonial .testimonial-owl-outer .testimonial-owl-inner .testimonial-detail {
+	display: block;
+	font-weight: 600;
+	text-align: center;
+}
+section .inner-section .testimonial-block .inner-testimonial .testimonial-owl-outer .testimonial-owl-inner .testimonial-detail strong {
+    color: #e62263;
+}
+section .inner-section .testimonial-block .inner-testimonial .testimonial-owl-outer .testimonial-owl-inner .testimonial-detail span {
+	color: #2b2b2b;
+	margin-left: 5px;
+}
+
+/* ..........................Brand-block................................. */
+section .inner-section .brand-block {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .brand-block .inner-brand {
+    display: block;
+}
+section .inner-section .brand-block .inner-brand .heading {
+    display: block;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+section .inner-section .brand-block .inner-brand .heading span {
+    display: block;
+	font-size: 40px;
+	line-height: 1.4;
+	font-weight: 600;
+	text-align: center;
+    position: relative;
+}
+section .inner-section .brand-block .inner-brand .heading span::after {
+    content: "";
+    width: 130px;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-bottom: 3px solid #e62263;
+    padding-bottom: 6px;
+}
+section .inner-section .brand-block .inner-brand .brand-items {
+    display: flex;
+}
+section .inner-section .brand-block .inner-brand .brand-items .brand-name {
+	display: block;
+	margin: 0 auto;
+}
+
+/* ...........................other-service-block................... */
+section .inner-section .other-services-block {
+    display: block;
+    background: #f6f6f6;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    clear: both;
+}
+section .inner-section .other-services-block .inner-services {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+section .inner-section .other-services-block .inner-services .main-services {
+    display: block;
+    width: 25%;
+    padding: 10px 15px;
+    text-align: center;
+}
+section .inner-section .other-services-block .inner-services .main-services .service-icon {
+    display: block;
+}
+section .inner-section .other-services-block .inner-services .main-services .services-content {
+    display: block;
+    padding-top: 15px;
+}
+section .inner-section .other-services-block .inner-services .main-services .services-content strong {
+	font-weight: 600;
+	color: #2b2b2b;
+	margin-bottom: 8px;
+	display: block;
+	line-height: 1.1;
+}
+section .inner-section .other-services-block .inner-services .main-services .services-content p {
+	display: block;
+	font-size: 14px;
+	color: #555;
+	margin: 0 auto;
+	max-width: 230px;
+	line-height: 1.3;
+}
+
+/* ............................Footer-block.............................. */
+footer {
+    display: block;
+    clear: both;
+    font-family: 'Open Sans', sans-serif;
+}
+footer .inner-footer {
+    display: block;
+    padding-top: 35px;
+}
+footer .inner-footer .footer-colums-outer {
+    display: flex;
+    border-bottom: 1px solid #2b2b2b;
+}
+footer .inner-footer .footer-colum {
+    display: block;
+    width: 22%;
+    margin-bottom: 25px;
+    padding: 0 15px;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .footer-title {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2b2b2b;
+    margin-bottom: 35px;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .footer-links {
+	display: block;
+	margin-bottom: 15px;
+	color: #2b2b2b;
+	font-size: 14px;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .footer-links li {
+    list-style: none;
+    display: block;
+    margin-bottom: 9px;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .footer-links li span {
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: -15px;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .footer-links li a {
+    color: #2b2b2b;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .footer-links li a:hover {
+    color: #e62263;
+    margin-left: 5px;
+    transition: 1s;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .bottom-newsletter {
+	display: block;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .bottom-newsletter p {
+    margin-bottom: 16px;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .bottom-newsletter .input-wrapper {
+    display: block;
+    width: 100%;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .bottom-newsletter .input-wrapper input {
+	padding-left: 14px;
+	border-radius: 3px;
+	text-align: left;
+	background: #ffffff;
+	font-size: 13px;
+	height: 40px;
+	border: 1px solid #e62263;
+	color: #2b2b2b;
+    box-sizing: border-box;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .bottom-newsletter input {
+	display: block;
+	margin: 10px 0 0;
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+	padding: 5px 25px;
+	background: #e62263;
+	border: 1px solid #e62263;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+}
+footer .inner-footer .footer-colums-outer .footer-colum .bottom-newsletter input:hover {
+    background: #2b2b2b;
+    transition: ease-in 1s;
+}
+footer .inner-footer .footer-bottom {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 2px;
+    box-sizing: border-box;
+}
+footer .inner-footer .footer-bottom .copyright {
+	font-size: 14px;
+	line-height: 32px;
+	display: block;
+	box-sizing: border-box;
+	width: 33.33%;
+    padding-left: 10px;
+}
+footer .inner-footer .footer-bottom .copyright a{
+    color: #2b2b2b;
+}
+footer .inner-footer .footer-bottom .social-btn {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 10px;
+	text-align: center;
+	box-sizing: border-box;
+	width: 33.33%;
+}
+footer .inner-footer .payment-icons {
+	display: block;
+	padding-left: 140px;
+	width: 33.33%;
+	box-sizing: border-box;
+}
+footer .inner-footer .payment-icons .payment-options {
+    display: flex;
+}
+footer .inner-footer .payment-icons .payment-options li {
+    list-style: none;
+    display: block;
+    padding: 0 4px;
+    font-size: 28px;
+    box-sizing: border-box;
+}
+footer .inner-footer .payment-icons .payment-options li a {
+    color: #2b2b2b;
+}
